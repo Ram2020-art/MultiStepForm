@@ -2,9 +2,6 @@
 
 A responsive multi-step form with a white background, designed for account creation.
 
-## Preview
-
-<img src="https://github.com/Ram2020-art/MultiStepForm/raw/main/IMG_20231223_000910_resized.jpg" alt="Form Preview" width="300">
 
 
 
