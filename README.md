@@ -23,12 +23,12 @@ A responsive multi-step form with a white background, designed for account creat
 
 1. Clone the repository:
 
-   ```bash
+   bash
    git clone https://github.com/Ram2020-art/MultiStepForm.git
 
    Certainly! Below is a complete README file with placeholders replaced by the actual information provided:
 
-```markdown
+markdown
 # Multi-Step Form
 
 A responsive multi-step form with a white background, designed for account creation.
@@ -101,7 +101,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 &copy; 2023 Ram Mijar. All rights reserved. | [Visit Website](https://www.rammijar.com.np/)
-```
+
 
 Replace the placeholders with the actual information, and your README file is ready for use.
 
