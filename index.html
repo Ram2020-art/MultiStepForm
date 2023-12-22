@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Multi Step Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- Multistep form -->
+  <form id="msform">
+    <!-- Progressbar -->
+    <ul id="progressbar">
+      <li class="active">Account Setup</li>
+      <li>Social Profiles</li>
+      <li>Personal Details</li>
+    </ul>
+    
+    <!-- Fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">Create your account</h2>
+      <h3 class="fs-subtitle">This is step 1</h3>
+      <input type="text" name="email" placeholder="Email" />
+      <input type="password" name="pass" placeholder="Password" />
+      <input type="password" name="cpass" placeholder="Confirm Password" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    
+    <fieldset>
+      <h2 class="fs-title">Social Profiles</h2>
+      <h3 class="fs-subtitle">Your presence on the social network</h3>
+      <input type="text" name="twitter" placeholder="Twitter" />
+      <input type="text" name="facebook" placeholder="Facebook" />
+      <input type="text" name="gplus" placeholder="Google Plus" />
+      <input type="button" name="previous" class="previous action-button" value="Previous" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    
+    <fieldset>
+      <h2 class="fs-title">Personal Details</h2>
+      <h3 class="fs-subtitle">We will never sell it</h3>
+      <input type="text" name="fname" placeholder="First Name" />
+      <input type="text" name="lname" placeholder="Last Name" />
+      <input type="text" name="phone" placeholder="Phone" />
+      <textarea name="address" placeholder="Address"></textarea>
+      <input type="button" name="previous" class="previous action-button" value="Previous" />
+      <a href="https://www.rammijar.com.np/" class="submit action-button" target="_top">Submit</a>
+    </fieldset>
+  </form>
+
+  <!-- Script -->
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="ramijar2020" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FF5F5F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+  
+  <script src="./script.js"></script>
+  <!-- Copyright notice with website link -->
+<div style="position: fixed; bottom: 0; width: 100%; text-align: center; color: #4285f4; font-size: 12px;">
+  &copy; 2023 Ram Mijar. All rights reserved. | <a href="https://www.rammijar.com.np/" style="color: #4285f4; text-decoration: none;" target="_blank">Visit Website</a>
+</div>
+
+</body>
+</html>
