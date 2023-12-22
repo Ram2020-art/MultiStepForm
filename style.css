@@ -140,10 +140,7 @@ body {
 /* Add this to your style.css */
 
 /* Mobile styles */
-@media only screen and (max-width: 600px) {
-  #progressbar {
-    display: none;
-  }
+
 
   fieldset {
     width: 100%;
