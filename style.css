@@ -136,3 +136,34 @@ body {
 	background: #FF5733;
 	color: white;
 }
+
+/* Add this to your style.css */
+
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+  #progressbar {
+    display: none;
+  }
+
+  fieldset {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .fs-title, .fs-subtitle {
+    text-align: center;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .action-button {
+    width: 100%;
+  }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 601px) {
+  /* Add any specific desktop styles here */
+}
